@@ -1,0 +1,37 @@
+Tell Git who you are              git config --global user.name "Sam Smith"
+                                  git config --global user.email sam@example.com
+
+Create a new local repository       git init
+
+Check out a repository               git clone /path/to/repository
+                                     git clone username@host:/path/to/repository(for remote server use)
+
+Add files                            git add <file name>
+                                     git add .
+
+Commit                               git commit -m "commit message"
+
+Push                                git push origin master
+
+Status                              git status
+
+Connect to a remote                 git remote add origin <server>
+repository
+
+Branches	Create a new branch and switch to it:	
+                                   git checkout -b <branchname>
+                Switch from one branch to another:	
+                                   git checkout <branchname>
+                List all the branches in your repo, and also tell you what branch you're currently in:	
+                                   git branch
+                Delete the feature branch:	
+                                   git branch -d <branchname>
+                Push the branch to your remote repository, so others can use it:	
+                                   git push origin <branchname>
+                Push all branches to your remote repository:	
+                                   git push --all origin 
+                Delete a branch on your remote repository:	
+                                   git push origin :<branchname>
+
+
+                                      
