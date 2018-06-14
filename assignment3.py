@@ -69,9 +69,14 @@ print(list6)
 
 print("\n")
 
-print("questio7")
-x=int(input("enter any number"))
-if(x%2==0):
-   print("the number is even")
-else:
-    print("the number is odd")   
+print("question7")
+NUMBER_LIST = [1,2,3,4,5]
+even = 0;
+odd = 0;
+for numbers in NUMBER_LIST :
+    if (numbers%2 == 1):
+        odd = odd+1
+    if (numbers%2 == 0):
+        even = even+1
+print('number of evens is: ',even)
+print('number of odds is: ',odd) 
