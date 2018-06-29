@@ -1,0 +1,13 @@
+def email_splitter(email):
+    username = email.split('@')[0]
+    domain = email.split('@')[1]
+    domain_name = domain.split('.')[0]
+    domain_type = domain.split('.')[1]
+
+
+    l=[username,domain_name,domain_type]
+    print(l)
+
+email_splitter('zack26@facebook.com')
+email_splitter('jeff42@amazon.com')
+email_splitter('page33@google.com')
